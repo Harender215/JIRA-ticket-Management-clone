@@ -42,3 +42,18 @@ body{
     border-radius: 2px;
 }
 
+.lightpink {
+    background-color: lightpink;
+}
+
+.lightgreen {
+    background-color: lightgreen;
+}
+
+.lightblue {
+    background-color: lightblue;
+}
+
+.black{
+    background-color: black;
+}
