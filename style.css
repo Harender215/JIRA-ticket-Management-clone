@@ -32,13 +32,81 @@ body{
 .action-btn-cont {
     height: 3.5rem;
     width: 8rem;
+    background-color: #3d3d3d;
+    display: flex;
+}
+.action-btn-cont > *{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-size: 2rem;
+    color: #32ff7e;
+}
+.lightpink {
     background-color: lightpink;
 }
+
+.lightgreen {
+    background-color: lightgreen;
+}
+
+.lightblue {
+    background-color: lightblue;
+}
+
+.black{
+    background-color: black;
+} 
+
 
 .color {
     height: 1.5rem;
     width: 2.5rem;
-    background-color: lightsalmon;
     border-radius: 2px;
 }
+
+.action-btn-cont > *:hover
+{
+    background-color: #20bf6b;
+}
+
+.modal-cont {
+    height : 50vh;
+    width: 45vw;
+    background: lightblue;
+    position: absolute;
+    top: calc((100vh - 50vh)/2);
+    left: calc((100vw - 45vw)/2);
+    display: flex;
+}
+
+.textarea-cont{
+    height: 100%;
+    width: 75%;
+    border: none;
+    outline: none;
+    resize: none;
+    background-color: aquamarine;
+
+}
+
+.priority-color-cont{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4b4b4b;
+
+}
+
+.priority-color{
+    height: 3rem;
+    width: 55%;
+
+}
+
+
 
